@@ -7,6 +7,7 @@
 
 <body>
     <center>
+        <!-- Task 1: HTML Basics Form -->
         <h1>Task 1: HTML Basics Form</h1>
         <form method="post">
             <label for="name"><b>Name:</b></label>
@@ -22,6 +23,7 @@
         <br>
         <br>
         <?php
+        //Task 2: Basic OOP in PHP
         // Define the Person class
         class Person
         {
@@ -49,12 +51,13 @@
             }
         }
         $person = new Person();
-        $person->setName('John Doe');
-        $person->setEmail('john.doe@example.com');
+        $person->setName('Marajul Islam');
+        $person->setEmail('junath57@gmail.com');
         echo '<h1>Task 2: Basic OOP in PHP</h1>';
         echo '<b>Name:</b> ' . $person->getName() . '<br>';
         echo '<b>Email:</b> ' . $person->getEmail() . '<br><br>';
         
+        //Task 3: Superglobal Variables
         // Check if form has been submitted
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Create new instance of Person class
